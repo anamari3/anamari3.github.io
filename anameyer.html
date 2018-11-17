@@ -16,7 +16,7 @@
 
     <!--NAVIGATION-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-shrink">
             <a class="navbar-brand" href="#home">ana meyer</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
@@ -56,8 +56,8 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <img class="img-fluid" src="./img/fern.jpg" alt=""/> <!--FIX have words overlap image-->
-            <h1 class="display-5">ana meyer</h1>
-            <p class="lead">constantly evolving</p>
+            <h1 class="display-5">ana.meyer</h1>
+            <p class="lead">constantly_evolving</p>
         </div>
     </div>
 
@@ -66,7 +66,7 @@
     <!--SKILLS-->
     
     <div id="hard"></div>
-    <h1 class="top-buffer">Hard Skills</h1>
+    <h2 class="top-buffer">Hard Skills</h2>
     <div class="col"></div>
         <div class="row">
             <div class="col">
@@ -83,7 +83,7 @@
             </div>
             <div class="w-100 my-2"></div>
             <div class="col">
-                <img src="" class="rounded float-left img-fluid" alt=""><!--FIX add image and alt-->
+                <img src="" class="rounded float-left img-fluid" alt=""><!--FIX add image and alt="-->
             </div>
             <div class="col">
                 <img src="./img/c.png" class="rounded float-left img-fluid" alt="C#">
@@ -97,7 +97,7 @@
         </div>
 
     <div id="soft"></div>
-    <h1 class="top-buffer">Soft Skills</h1>
+    <h2 class="top-buffer">Soft Skills</h2>
     <div class="col"></div>
     <div class="row">
         <div class="col">Leadership</div>
@@ -114,7 +114,7 @@
     </div>
 
     <div id="scramble"></div>
-    <h1 class="top-buffer">Scrambled Skills</h1>
+    <h2 class="top-buffer">Scrambled Skills</h2>
     <div class="col">
     <div class="row">
         <div class="col">Amateur Tarot Reader</div>
@@ -129,7 +129,7 @@
     <!--PORTFOLIO-->
 
     <div id="portfolio"></div>
-    <h1 class="top-buffer">Portfolio</h1>
+    <h2 class="top-buffer">Portfolio</h2>
     <div class="card-deck">
         <div class="card">
             <img class="card-img-top" src="./img/comingsoon.png" alt="">
@@ -158,7 +158,16 @@
 
     <!--CONTACT-->
 
-    <ul class="nav" id="contact">
+    <div class="container-fluid top-buffer">
+        <div class="mx-auto" style="width: 200px;">
+            <h2>contact me</h2>
+            <img class="img-fluid mx-auto" src="./img/fern2.png" alt=""> <!--FIX Why is this so small?-->
+            <a class="nav-link active" href="https://www.linkedin.com/in/anamarieorozco/">LinkedIn</a>
+        </div>    
+    </div>
+
+
+    <ul class="nav top-buffer" id="contact">
         <li class="nav-item">
             <small><a class="nav-link active" href="https://www.linkedin.com/in/anamarieorozco/">LinkedIn</a></small>
         </li>
@@ -168,7 +177,7 @@
         <li class="nav-item">
             <small><a class="nav-link" href="#">ana.marie.meyer@gmail.com</a></small> <!--FIX to include active link-->
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
             <small class="nav-link" href="#">Download Resume</small> <!--FIX to attach and download resume-->
         </li>
     </ul>
