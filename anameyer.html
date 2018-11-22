@@ -158,16 +158,33 @@
 
     <!--CONTACT-->
 
-    <div class="container-fluid top-buffer">
-        <div class="mx-auto" style="width: 200px;">
-            <h2>contact me</h2>
-            <img class="img-fluid mx-auto" src="./img/fern2.png" alt=""> <!--FIX Why is this so small?-->
-            <a class="nav-link active" href="https://www.linkedin.com/in/anamarieorozco/">LinkedIn</a>
-        </div>    
-    </div>
+        <!-- jumbotron heading-->
+    <div class="container-fluid top-buffer" id="contact">
+    <div class="jumbotron jumbotron-fluid p-3 mb-2 bg-success text-white mt-5 hidden-md-down text-center">
+            <div class="container">
+                <h1 class="display-4 hidden-md-down" style="color: #fff; font-family: Palatino; font-weight: 100; text-transform: lowercase">Contact Me</h1>                
+            </div>
+        </div>
+        <!-- /jumbotron heading-->
 
+        <div class="dropdown show"> <!--FIX THIS: Line up links so that they are side by side-->
+            <a class="btn btn-sucess dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                LinkedIn
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="https://www.linkedin.com/in/anamariemeyer/">anamariemeyer</a>
+            </div>
+        </div>
+        <div class="dropdown show">
+            <a class="btn btn-sucess dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    GitHub
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="https://github.com/anamari3">anamari3</a>
+                </div>
+        </div>
 
-    <ul class="nav top-buffer" id="contact">
+    <ul class="nav top-buffer">
         <li class="nav-item">
             <small><a class="nav-link active" href="https://www.linkedin.com/in/anamarieorozco/">LinkedIn</a></small>
         </li>
