@@ -1,5 +1,10 @@
+.navbar {
+    background-color: #37680f;
+    /*CHANGE FONT COLOR TO WHITE(MATCH)*/
+}
+
 .jumbotron {
-    background-color: #fff;
+    background-color: #cbf3aa;
 }
 
 /*.container {
@@ -8,7 +13,7 @@
 
 .col {
     margin: 10px;
-
+    background-color: #cbf3aa;
 }
 
 .col img {
@@ -18,6 +23,7 @@
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+
 }
 
 h1 {
@@ -26,13 +32,15 @@ h1 {
 
 h2 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    text-decoration-line: underline;
+    /*text-decoration-line: underline;
     text-decoration-style: double;
-    text-decoration-color: #427510;
+    text-decoration-color: #427510;*/ /*FIX THIS OR DELETE*/
 }
 
 .top-buffer {
     margin-top: 300px;
+    background-color: #37680f;
+    color: white;
 }
 
 .card-img-top {
